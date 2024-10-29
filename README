@@ -1,1 +1,7 @@
-.
+The Terraform configuration in this project used to create:
+    - AWS Security groups for Launch template and ALB
+    - AWS Launch template
+    - AWS Auto Scaling Group with autoscaling schedule and notifications
+    - AWS Target Group
+    - AWS Application Load Balancer
+Configuration uses the .tfstate file stored in the S3 bucket.
